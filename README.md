@@ -1,0 +1,1 @@
+# frontend-mentor-equalizer-landing-page

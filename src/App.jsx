@@ -1,7 +1,12 @@
 import "./App.css";
+import Equalizer from "./components/Equalizer";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Equalizer />
+    </>
+  );
 }
 
 export default App;

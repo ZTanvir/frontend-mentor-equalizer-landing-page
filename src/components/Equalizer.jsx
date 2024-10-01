@@ -1,11 +1,11 @@
 import Header from "../components/Header";
-import PriceCard from "./PriceCard";
+import Main from "./Main";
 
 const Equalizer = () => {
   return (
     <div>
       <Header text="equalizer" />
-      <PriceCard />
+      <Main />
     </div>
   );
 };

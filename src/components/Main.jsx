@@ -19,11 +19,13 @@ const Main = () => {
         style={{ backgroundImage: `url(${demoAndPriceBgImg})` }}
         className={styles.demoAndPriceContainer}
       >
-        {/* <img
+        <img
           src={demoAppImg}
           alt="equalizer app interface inside of a mobile phone"
-        /> */}
-        {/* <PriceCard /> */}
+        />
+        <div className={styles.priceCard}>
+          <PriceCard />
+        </div>
       </div>
     </main>
   );

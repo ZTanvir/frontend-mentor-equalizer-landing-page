@@ -3,4 +3,20 @@
   height: 600px;
   background-repeat: no-repeat;
   background-position: center top;
+  position: relative;
+  max-width: 1200px;
+  border-radius: 1rem;
+}
+.demoAndPriceContainer > img {
+  width: 312px;
+  position: absolute;
+  bottom: 6rem;
+  left: 6rem;
+}
+.priceCard {
+  width: 450px;
+  height: 625px;
+  position: absolute;
+  right: 6rem;
+  top: 4rem;
 }

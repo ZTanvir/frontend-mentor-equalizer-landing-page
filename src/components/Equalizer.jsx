@@ -1,9 +1,10 @@
 import Header from "../components/Header";
 import Main from "./Main";
+import styles from "../styles/equalizerpage.module.css";
 
 const Equalizer = () => {
   return (
-    <div>
+    <div className={styles.equalizerPage}>
       <Header text="equalizer" />
       <Main />
     </div>

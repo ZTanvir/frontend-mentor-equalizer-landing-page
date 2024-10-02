@@ -1,3 +1,17 @@
+.mainSectionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pageDescriptions h2 {
+  font-size: 4rem;
+  line-height: 1;
+}
+.pageDescriptions p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
 .demoAndPriceContainer {
   background-color: #191826;
   height: 600px;

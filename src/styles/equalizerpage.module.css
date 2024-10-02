@@ -10,3 +10,6 @@
 .equalizerPage > main {
   grid-column: 2/3;
 }
+.equalizerPage > footer {
+  grid-column: 2/3;
+}

@@ -1,0 +1,23 @@
+.footerContainer {
+  display: flex;
+
+  justify-content: space-between;
+}
+.iconContainer {
+  display: flex;
+  align-self: flex-start;
+  gap: 1rem;
+}
+.footerTitle {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.fbIcon:hover {
+  background-color: #fa7453;
+}
+.insIcon:hover {
+  background-color: #fa7453;
+}
+.twitterIcon:hover {
+  background-color: #fa7453;
+}

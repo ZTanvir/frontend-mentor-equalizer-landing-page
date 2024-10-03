@@ -3,13 +3,20 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.pageDescriptions h2 {
+.pageDescriptions {
+  max-width: 700px;
+}
+
+.pageDescriptions > h2 {
   font-size: 4rem;
   line-height: 1;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
 }
-.pageDescriptions p {
+.pageDescriptions > p {
   font-size: 1rem;
   font-weight: 300;
+  margin-bottom: 6.75rem;
 }
 
 .demoAndPriceContainer {
@@ -20,6 +27,8 @@
   position: relative;
   max-width: 1200px;
   border-radius: 1rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
 }
 .demoAndPriceContainer > img {
   width: 312px;

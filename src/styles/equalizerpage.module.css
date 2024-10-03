@@ -3,6 +3,8 @@
   background-color: #fcfaf9;
   display: grid;
   grid-template-columns: 1fr 1200px 1fr;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .equalizerPage > header {
   grid-column: 2/3;

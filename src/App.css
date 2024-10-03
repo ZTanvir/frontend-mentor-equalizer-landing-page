@@ -63,3 +63,6 @@ h6 {
 #root {
   height: 100%;
 }
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}

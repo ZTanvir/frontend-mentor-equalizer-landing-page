@@ -10,9 +10,9 @@ const Footer = () => {
       <p className={styles.footerTitle}>equalizer</p>
       <div className={styles.aboutWebsite}>
         <p>All rights reserved © Equalizer {currentYear}</p>
+        <p>Have any problems? Contact us via social media or </p>
         <address>
-          Have any problems? Contact us via social media or email us at{" "}
-          <a href="equalizer@example.com">equalizer@example.com</a>{" "}
+          email us at <a href="equalizer@example.com">equalizer@example.com</a>{" "}
         </address>
       </div>
       <div className={styles.iconContainer}>

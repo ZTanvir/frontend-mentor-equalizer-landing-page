@@ -1,6 +1,5 @@
 .footerContainer {
   display: flex;
-
   justify-content: space-between;
 }
 .iconContainer {
@@ -8,16 +7,19 @@
   align-self: flex-start;
   gap: 1rem;
 }
+
+.aboutWebsite > address > a {
+  text-decoration: none;
+  color: unset;
+  font-weight: 800;
+}
 .footerTitle {
-  font-size: 3rem;
+  font-size: 2rem;
+  line-height: 1;
   font-weight: 600;
 }
-.fbIcon:hover {
+
+:is(.fbIcon:hover, .insIcon:hover, .twitterIcon:hover) {
   background-color: #fa7453;
-}
-.insIcon:hover {
-  background-color: #fa7453;
-}
-.twitterIcon:hover {
-  background-color: #fa7453;
+  cursor: pointer;
 }

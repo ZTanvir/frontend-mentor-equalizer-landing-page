@@ -1,6 +1,9 @@
 .equalizerPage {
   height: 100%;
   background-color: #fcfaf9;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: grid;
   grid-template-columns: 1fr 1200px 1fr;
   padding-top: 2rem;

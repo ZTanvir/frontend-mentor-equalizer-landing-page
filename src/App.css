@@ -61,5 +61,5 @@ h6 {
   isolation: isolate;
 }
 #root {
-  height: 100vh;
+  height: 100%;
 }

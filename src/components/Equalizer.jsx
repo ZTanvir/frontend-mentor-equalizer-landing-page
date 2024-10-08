@@ -2,15 +2,11 @@ import Header from "../components/Header";
 import Main from "./Main";
 import styles from "../styles/equalizerpage.module.css";
 import Footer from "./Footer";
-import mainBgImg from "../assets/bg-main-desktop.png";
 import bgPatternOneImg from "../assets/bg-pattern-1.svg";
 
 const Equalizer = () => {
   return (
-    <div
-      style={{ backgroundImage: `url(${mainBgImg})` }}
-      className={styles.equalizerPage}
-    >
+    <div className={styles.equalizerPage}>
       <Header text="equalizer" />
       <Main />
       <footer>

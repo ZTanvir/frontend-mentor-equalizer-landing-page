@@ -2,6 +2,7 @@
   height: 100%;
   position: relative;
   background-color: #fcfaf9;
+  background-image: url("../assets/bg-main-desktop.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

@@ -15,11 +15,6 @@
   position: absolute;
   right: 0;
 }
-:is(
-    .equalizerPage > header,
-    .equalizerPage > main,
-    .equalizerPage > footer,
-    .bgPatternOne
-  ) {
+:is(.equalizerPage > header, .equalizerPage > main, .equalizerPage > footer, ) {
   grid-column: 2/3;
 }

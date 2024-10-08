@@ -29,3 +29,15 @@
 :is(.priceCardTitle, .priceCardDescriptions, .subscriptionCost) {
   color: #fcfaf9;
 }
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .priceCardContainer {
+    padding: 2rem;
+  }
+  .priceCardTitle {
+    font-size: 2rem;
+  }
+  .priceCardDescriptions {
+    font-size: 1.25rem;
+  }
+}

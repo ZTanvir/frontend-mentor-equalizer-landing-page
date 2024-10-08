@@ -43,3 +43,23 @@
   right: 6rem;
   top: 4rem;
 }
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .pageDescriptions > h2 {
+    font-size: 3rem;
+  }
+  .demoAndPriceContainer {
+    max-width: 700px;
+  }
+  .demoAndPriceContainer > img {
+    width: 250px;
+    left: 3.5rem;
+    bottom: 13rem;
+  }
+  .priceCard {
+    width: 400px;
+    right: 3.5rem;
+    top: 10rem;
+  }
+}

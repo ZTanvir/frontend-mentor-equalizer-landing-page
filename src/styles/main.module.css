@@ -47,10 +47,15 @@
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
   .pageDescriptions > h2 {
-    font-size: 3rem;
+    margin-top: 4rem;
+    font-size: 5rem;
+  }
+  .pageDescriptions > p {
+    margin-bottom: 3.75rem;
   }
   .demoAndPriceContainer {
     max-width: 700px;
+    margin-bottom: 10rem;
   }
   .demoAndPriceContainer > img {
     width: 250px;

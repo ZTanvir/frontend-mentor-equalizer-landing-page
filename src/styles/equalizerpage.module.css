@@ -23,7 +23,7 @@
 @media (min-width: 700px) and (max-width: 1024px) {
   .equalizerPage {
     background-image: url("../assets/bg-main-tablet.png");
-    grid-template-columns: 1fr 700px 1fr;
+    grid-template-columns: 2rem 1fr 2rem;
   }
   .bgPatternOne {
     width: 200px;

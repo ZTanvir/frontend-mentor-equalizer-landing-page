@@ -20,6 +20,7 @@
 
 .productPrice {
   font-size: 4rem;
+  font-weight: 600;
 }
 .buttonGroup {
   display: flex;
@@ -30,7 +31,7 @@
   color: #fcfaf9;
 }
 /* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 700px) and (max-width: 1024px) {
   .priceCardContainer {
     padding: 2rem;
   }
@@ -39,5 +40,12 @@
   }
   .priceCardDescriptions {
     font-size: 1.25rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .priceCardContainer {
+    padding: 2rem;
   }
 }

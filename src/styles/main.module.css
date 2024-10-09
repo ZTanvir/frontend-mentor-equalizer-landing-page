@@ -45,7 +45,7 @@
 }
 
 /* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 700px) and (max-width: 1024px) {
   .pageDescriptions > h2 {
     margin-top: 4rem;
     font-size: 5rem;
@@ -66,5 +66,32 @@
     width: 400px;
     right: 3.5rem;
     top: 10rem;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .pageDescriptions {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .pageDescriptions > h2 {
+    margin-top: 4rem;
+    font-size: 3rem;
+  }
+  .pageDescriptions > p {
+    margin-bottom: 1rem;
+  }
+  .demoAndPriceContainer {
+    width: 100%;
+  }
+  .demoAndPriceContainer > img {
+    width: 220px;
+    bottom: 16rem;
+    left: 4.5rem;
+  }
+  .priceCard {
+    width: 100%;
+    right: 0;
+    top: 26rem;
   }
 }
